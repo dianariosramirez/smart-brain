@@ -1,0 +1,20 @@
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    color:rgb(210, 200, 208);
+    font-weight: bold;
+    width: 150px;
+    height: 60px;
+    padding: 5px;
+    border-left-style: solid;
+}
+
+.profile {
+    height: 40%;
+}
+
+.rankspace {
+    height: 60%;
+}

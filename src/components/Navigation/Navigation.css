@@ -1,0 +1,15 @@
+nav {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signOut {
+    margin-left: 14px;
+}
+
+.signOut:hover {
+    cursor: pointer;
+    color: rgb(233, 193, 231);
+}

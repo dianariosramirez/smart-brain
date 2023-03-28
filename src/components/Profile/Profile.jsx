@@ -1,7 +1,7 @@
 import React from "react";
-import './rank.css';
+import './profile.css';
 
-const Rank = ( { userName, entries } ) => {
+const Profile = ( { userName, entries } ) => {
     return (
         <div className="information">
             <div className="profile">
@@ -14,4 +14,4 @@ const Rank = ( { userName, entries } ) => {
     );
 }
 
-export default Rank;
+export default Profile;

@@ -5,7 +5,7 @@ import Navigation from './components/Navigation/Navigation';
 import WelcomePage from './components/WelcomePage/welcomePage';
 import Logo from './components/Logo/Logo';
 import { ImageLinkForm } from './components/ImageLinkForm/ImageLinkForm';
-import Rank from './components/Rank/Rank';
+import Profile from './components/Profile/Profile';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import './App.css';
 
@@ -121,7 +121,7 @@ const App = () => {
       { route === 'home'
         ? <div>
             <Navigation onRouteChange={onRouteChange} />
-            <Rank userName={user.name} entries={user.entries}/>
+            <Profile userName={user.name} entries={user.entries}/>
             <Logo />    
             <ImageLinkForm onInputChange={onInputChange} onButtonSubmit={onButtonSubmit} />
             <FaceRecognition faceRegions={faceRegions} imageUrl={imageUrl}/>

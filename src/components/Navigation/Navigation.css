@@ -5,11 +5,11 @@ nav {
     justify-content: flex-end;
 }
 
-.signOut {
+.home {
     margin-left: 14px;
 }
 
-.signOut:hover {
+.home:hover {
     cursor: pointer;
     color: rgb(233, 193, 231);
 }
